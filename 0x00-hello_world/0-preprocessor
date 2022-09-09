@@ -1,0 +1,1 @@
+e #!/bin/bash\n -E $CFILE -o c
