@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
-*main: prints teh string in the put function function
+* main - prints the string in the put function
 *
-*Description: using the main function
-*this program prints "Programming is like building a multilingual puzzle[D[D[D[D[D[D*Return: 0
+* Description
+* Description: using the main function
+* this program prints the line "Programming is like building a multilingual puzzle"
+* Return: 0
 */
 int main(void)
 {
