@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - This program will assign a random number to the variable n each time it is executed.
+ * main - main Block
  * Description - assigns a random number and determines it's last digit
  * prints a phrase
  * Return: 0
@@ -23,5 +23,6 @@ int main(void)
 		printf("Last digit of %i is %i and is 0\n", n, k);
 	else
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, k);
+
 	return (0);
 }
