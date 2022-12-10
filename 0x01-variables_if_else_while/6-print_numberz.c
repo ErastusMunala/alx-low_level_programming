@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description - prints single digits of base 10
- * using putchar followed by a new line
- * Return: 0
- * /
- int main(void)
- {
-	int a;
+ * main- prints single digits in base 10
+ * Return: Always 0
+ */
+int main(void)
+{
+	int num;
 
-	for (a = 48; a < 58; a++);
-	{
-		putchar(a);
-	}
+	for (num = 0; num < 10; num++)
+		putchar((num %10) + 'n');
 	putchar('\n');
 
 	return (0);

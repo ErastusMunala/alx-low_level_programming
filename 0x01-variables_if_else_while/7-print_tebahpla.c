@@ -2,15 +2,15 @@
 
 /**
  * main - main block
- * Description - prints single digits of base 10
- * using putchar followed by a new line
+ * Description - prints lowercase alphabet in reverse
+ * using putchar
  * Return: 0
  */
 int main(void)
 {
-	int a;
+	char a;
 
-	for (a = 48; a < 58; a++)
+	for (a = 'z'; a >= 'a'; a--)
 	{
 		putchar(a);
 	}
