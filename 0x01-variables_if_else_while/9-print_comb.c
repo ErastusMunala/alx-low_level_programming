@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints all combinations of single digit numbers
- * Return: Always 0
+ * main - main block
+ * prints possible combinations of single digit numbers
+ * using putchar
+ * Return: 0
  */
 int main(void)
 {
@@ -18,5 +20,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
