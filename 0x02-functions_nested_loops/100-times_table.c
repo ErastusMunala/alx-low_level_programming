@@ -28,13 +28,13 @@ void print_times_table(int n)
 			else if (c < 100)
 			{
 				_putchar(' ');
-				_putchar('0' + c / 100);
+				_putchar('0' + c / 10);
 				_putchar('0' + c % 10);
 			}
 			else
 			{
 				_putchar('0' + c / 100);
-				_putchar('0' + (c - 100) /10);
+				_putchar('0' + (c - 100) / 10);
 				_putchar('0' + c % 10);
 			}
 			if (b < n)
