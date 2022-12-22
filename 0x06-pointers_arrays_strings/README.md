@@ -1,1 +1,1 @@
-0x06-pointers_arrays_strings
+Day six of C Language - More pointers, arrays and strings
