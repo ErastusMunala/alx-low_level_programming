@@ -1,9 +1,1 @@
-
-
-
-
-
-
-
-
-Singly linked liSTs project
+Singly linked lists project
